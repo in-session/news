@@ -18,7 +18,7 @@
 		<f:then>
 			<f:if condition="{pagination.numberOfPages} > 1">
 				<f:if condition="{settings.list.paginate}">
-					<f:if condition="{pagination.previousPage}">
+					<f:if condition="{settings.list.paginate.prevNextHeaderTags}">
 						<f:if condition="{pagination.previousPage} > 1">
 							<f:then>
 								<n:headerData>
